@@ -1,0 +1,9 @@
+<h1>Create a New Property</h1>
+<%= simple_form_for @property do |f| %>
+  <%= f.input :street_address %>
+  <%= f.input :city %>
+  <%= f.input :state %>
+  <%= f.input :description %>
+
+  <%= f.submit %>
+<% end %>
